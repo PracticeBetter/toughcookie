@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;700&family=Gasoek+One&family=Poppins:wght@300;700&family=Roboto:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* NAVBAR SECTION */
+.navbar-custom {
+  background-color: #f9f5eb;
+  font-family: 'Poppins', sans-serif;
+}
+
+.fixed-top {
+  background-color: rgba(249, 245, 235, 0.7);
+}
+
+.navbar-logo {
+  color: #ea5455;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+#modal-btn {
+  background-color: #ea5455;
+  border-radius: 0.5em;
+  color: #f9f5eb;
+  font-weight: 300;
+  display: inline-block;
+  padding: 0.2em 0.5em;
+}
+
+/* TITLE SECTION */
+body {
+  background-color: #f9f5eb;
+}
+
+#title-section {
+  background-image: url('img/bgimg1.jpg');
+  background-size: cover; /* This ensures the image covers the entire container */
+  background-position: center; /* Center the background image */
+  min-height: 100vh;
+  min-width: 80vw;
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Horizontally center the content */
+  align-items: center;
+}
+.title {
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.__title--font {
+  /* background-color: #ea5455; */
+  /* Replace with your image path */
+  background-size: cover; /* Adjust as needed (cover, contain, etc.) */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  background-position: center center; /* Center the image */
+  /* Additional styles */
+  padding: 20px; /* Add some padding to the container */
+  color: white; /* Text color on the image background */
+  margin-bottom: 1.5em;
+  padding: 10em;
+}
+
+.tough-cookie {
+  font-family: 'Poppins', sans-serif;
+  color: #f9f5eb;
+  font-weight: 700;
+  font-size: 9rem;
+  margin-right: 0;
+  overflow: hidden;
+}
+
+.learn-more-btn {
+  margin-top: 50%;
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  color: #ea5455; /* Link color */
+  text-decoration: underline; /* Underline to mimic link appearance */
+  font-size: 1.2rem;
+}
+
+.disclaimer {
+  color: #f9f5eb;
+  font-size: 0.75em;
+  margin-top: 1em;
+}
+
+/* ABOUT SECTION */
+.about-section {
+  margin-top: 15%;
+  margin-bottom: 10%;
+}
+.aboutimg {
+  width: 100%;
+}
+
+.__about-section--coltitle__container {
+  font-family: 'Poppins', sans-serif;
+  padding-left: 5em;
+}
+
+.about-section p {
+  margin-top: 8%;
+}
+
+.about-section h2 {
+  color: #ea5455;
+  font-weight: 600;
+}
+
+/* BENEFITS SECTION */
+#benefits-section {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-family: 'Poppins', sans-serif;
+}
+#benefits-section h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #ea5455;
+  font-weight: 600;
+  margin-bottom: 7%;
+}
+
+#benefits-section h5 {
+  font-weight: 400;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+
+.benefits-section__tab-container {
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 0;
+}
+
+.benefits-section__tab-container button {
+  color: white !important;
+}
+
+.tab-content {
+  padding: 0.2em 1em;
+}
+
+#home-tab {
+  background-color: #002b5b;
+  transition: none;
+}
+
+#home-tab:hover {
+  background-color: #001a3a;
+}
+
+#profile-tab {
+  background-color: #ea5455;
+}
+#profile-tab:hover {
+  background-color: #e63233;
+}
+
+#contact-tab {
+  background-color: #61677a;
+}
+
+#contact-tab:hover {
+  background-color: #575d6e;
+}
+/* APP SECTION */
+.__app--button {
+  margin-top: 1.5em;
+  background-color: #ea5455;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  box-shadow: none;
+}
+
+/* .__app--button:hover {
+  background-color: #e63233;
+} */
+.__app--button:focus,
+.__app--button:active,
+.__app--button:hover {
+  background-color: #e63233;
+  box-shadow: none; /* Remove outline-like box-shadow on focus, active, and hover */
+  color: white;
+}
+.__app-initalWtButton {
+  margin-top: 0.5em;
+  background-color: #ea5455;
+  color: white;
+}
+
+.__app-initalWtButton:hover {
+  background-color: #e63233;
+  color: white;
+}
+.__app--initWtValue {
+  max-width: 15%;
+  margin: 0 auto;
+  font-style: italic;
+}
+
+.tableResult {
+  margin-top: 2em;
+  opacity: 0; /* hides table */
+}
+
+/* Modal Section */
+
+.modal-form-container {
+  background-color: #d8d9da;
+  font-family: 'Poppins', sans-serif;
+}
+
+.modal-btn {
+  background-color: #e63233;
+  color: #f9f5eb;
+}
+
+.modal-notified {
+  margin-top: 1em;
+  margin-bottom: 0;
+}
+
+/* Carousel Section */
+.carousel-inner {
+  background-color: #ea5455;
+  height: 40vh;
+  text-align: center;
+  padding-top: 5%;
+  font-family: 'Poppins', sans-serif;
+  color: #f9f5eb;
+}
+
+.car-container2 {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.car-img {
+  border-radius: 100%;
+  border: 2px solid #f9f5eb;
+  width: 10%;
+  margin-bottom: 1em;
+}
+
+.center-vertically {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Footer Section */
+#footer-section {
+  background-color: #f9f5eb;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 5em;
+  margin-bottom: 3em;
+}
+
+.footer-logo {
+  margin: 0 2em;
+}
+
+.coypright {
+  margin-top: 1.5em;
+}
+/* Media Queries */
+
+@media (max-width: 760px) {
+  .tough-cookie {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 516px) {
+  .tough-cookie {
+    font-size: 2.5rem;
+  }
+  .footer-logo {
+    margin: 0 1em;
+  }
+}
+
+@media (max-width: 360px) {
+  .tough-cookie {
+    font-size: 2.5rem;
+    display: inline-block;
+    width: 100%;
+  }
+}
